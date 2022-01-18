@@ -1,0 +1,34 @@
+[
+    {
+      "platform": "facebook",
+      "username": "@nathanf",
+      "totalFollowers": "1987",
+      "followerCount": "12",
+      "movement": "up",
+      "followerText":"followers"
+    },
+    {
+      "platform": "twitter",
+      "username": "@nathanf",
+      "totalFollowers": "1044",
+      "followerCount": "99",
+      "movement": "up",
+      "followerText":"followers"
+    },
+    {
+      "platform": "instagram",
+      "username": "@realnathanf",
+      "totalFollowers": "11k",
+      "followerCount": "1099",
+      "movement": "up",
+      "followerText":"followers"
+    },
+    {
+      "platform": "youtube",
+      "username": "Nathan F.",
+      "totalFollowers": "8239",
+      "followerCount": "-144",
+      "movement": "down",
+      "followerText":"subscribers"
+    }
+  ]

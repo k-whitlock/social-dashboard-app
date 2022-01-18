@@ -1,0 +1,58 @@
+[
+    {
+      "engagement": "Page views",
+      "total": "87",
+      "rating": "3",
+      "platform": "facebook",
+      "movement": "up"
+    },
+    {
+      "engagement": "Likes",
+      "total": "52",
+      "rating": "-2",
+      "platform": "facebook",
+      "movement": "down"
+    },
+    {
+      "engagement": "Likes",
+      "total": "5462",
+      "rating": "2257",
+      "platform": "instagram",
+      "movement": "up"
+    },
+    {
+      "engagement": "Profile views",
+      "total": "52k",
+      "rating": "1375",
+      "platform": "instagram",
+      "movement": "up"
+    },
+    {
+      "engagement": "Retweets",
+      "total": "117",
+      "rating": "303",
+      "platform": "twitter",
+      "movement": "up"
+    },
+    {
+      "engagement": "Likes",
+      "total": "507",
+      "rating": "553",
+      "platform": "twitter",
+      "movement": "up"
+    },
+    {
+      "engagement": "Likes",
+      "total": "107",
+      "rating": "-19",
+      "platform": "youtube",
+      "movement": "down"
+    },
+    {
+      "engagement": "Total views",
+      "total": "1407",
+      "rating": "-12",
+      "platform": "youtube",
+      "movement": "down"
+    }
+  ]

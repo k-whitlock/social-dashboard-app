@@ -1,0 +1,94 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 18px;
+    padding-bottom: 30px;
+}
+
+.sm-card {
+	background-color: var(--card-bg-light);
+	border-radius: 7px;
+	padding: 23px 25px;
+    -webkit-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+}
+
+.sm-card:hover {
+    background-color: rgb(224, 227, 240);
+    -webkit-transition: 0.2s all ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;  
+}
+
+.sm-card-title {
+    font-size: 1.4rem;
+}
+
+.sm-card-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: var(--sub-text-light);
+    
+}
+
+.today-total {
+    font-size: 2.8rem;
+}
+
+
+
+.rating-up {
+    color: hsl(163, 72%, 41%);
+}
+
+.rating-down {
+    color: hsl(356, 69%, 56%);
+}
+
+.engagement-change {
+    font-weight: 700;
+}
+
+/* MEDIA QUERIES
+============================================= */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 320px) {
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+   .grid-container {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 22px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 30px;
+    }
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+   
+
+   
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+
+} */

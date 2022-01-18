@@ -1,0 +1,171 @@
+/* MAIN CARD
+============================================= */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 18px;
+    padding-bottom: 30px;
+}
+
+.main-card {
+	background-color: var(--card-bg-light);
+	border-radius: 7px;
+	text-align: center;
+    justify-content: baseline;
+    transition: 0.2s all ease-in-out;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.main-card.facebook {
+    position: relative;
+}
+
+.main-card.twitter {
+    position: relative;
+}
+
+.main-card.instagram {
+    position: relative;
+}
+
+.main-card.youtube {
+    position: relative;
+}
+
+.main-card.facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    border-radius: 8px 8px 0 0;
+    height: 4px;
+    width: 100%;
+    background-color:hsl(208, 92%, 53%);   
+}
+
+.main-card.twitter::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    border-radius: 8px 8px 0 0;
+    height: 4px;
+    width: 100%;
+    background-color:hsl(203, 89%, 53%);
+}
+
+.main-card.youtube::before {
+	content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    border-radius: 8px 8px 0 0;
+    height: 4px;
+    width: 100%;
+    background-color:hsl(348, 97%, 39%);
+}   
+
+
+.main-card.instagram::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    border-radius: 8px 8px 0 0;
+    height: 4px;
+    width: 100%;
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+
+.main-card:hover {
+    background-color: rgb(224, 227, 240);
+    transform: translateY(-10px); 
+    transition: 0.2s all ease-in-out;
+   
+}
+
+.main-stat {
+    font-size: 5rem;
+    color: var(--sub-text-light);
+}
+
+.social-icon {
+    padding-right: 10px;
+} 
+
+.social-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.followers-text {
+    text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: normal;
+    font-size: 1rem;
+	padding-bottom: 25px;
+}
+
+.follower-container {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsl(163, 72%, 41%);
+}
+
+.followers-up {
+    color: hsl(163, 72%, 41%);
+}
+
+.followers-down {
+    color: hsl(356, 69%, 56%);
+}
+
+.arrow-icon {
+    vertical-align: middle;
+    padding-right: 7px;
+}
+
+
+/* MEDIA QUERIES
+============================================= */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 320px) {
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+   .grid-container {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 22px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 30px;
+    } 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+     
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+
+} 
+

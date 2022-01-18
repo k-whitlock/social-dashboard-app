@@ -1,0 +1,83 @@
+/* HEADER
+============================================= */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.heading {
+    color: var(--sub-text-light);
+    font-size: 2rem;
+    padding-bottom: 6px;
+}
+
+.total {
+    font-size: 1.3rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 22px;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.toggle-text {
+    color: var(--main-text-light);
+    font-weight: 700;
+}
+
+/* MEDIA QUERIES
+============================================= */
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 320px) {
+   
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .total {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .heading {
+        font-size: 2.6rem;
+    }
+
+    .toggle-text {
+        margin-right: 10px;
+    }
+ }
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .heading {
+        font-size: 3.2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+       
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
