@@ -1,6 +1,6 @@
 # Social Dashboard App
 ### 
-
+![Social Dashboard App Screenshot](public/social-dashboard-app-screenshot.PNG)
 # Deployment
 ### https://social-dashboard-app.vercel.app/
 # Built With 
